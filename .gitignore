@@ -1,0 +1,6 @@
+public/assets/fonts
+*.psd
+public/assets/hideit/*
+Score.json
+node_modules/*
+package-lock.json
