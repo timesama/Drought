@@ -2,7 +2,7 @@ export default class LevelManager {
     constructor(scene) {
         this.scene = scene;
         this.level = 1;
-        const delimeter = this.scene.multiPlayerState==true ? 2 : 1 //TODO it inits before the multiplayer state, lol
+        const delimeter = this.scene.multiPlayerState==true ? 1 : 1 //TODO it inits before the multiplayer state, lol
         console.log(delimeter)
 
         this.levelData = [
