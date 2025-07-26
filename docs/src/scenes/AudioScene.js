@@ -21,7 +21,7 @@ export default class AudioScene extends Phaser.Scene {
         this.load.image('sound', 'assets/SFX.png');
 
         // Music
-        this.load.audio('audioMenu', '/assets/audio/mainTheme.WAV');
+        this.load.audio('audioMenu', 'assets/audio/mainTheme.WAV');
         this.load.audio('audioEnemy', 'assets/audio/enemyTheme.WAV');
         this.load.audio('audioFinal', 'assets/audio/finalTheme.WAV');
 
