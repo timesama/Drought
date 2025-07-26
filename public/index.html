@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Drought</title>
+        <script src="https://cdn.jsdelivr.net/npm/fontfaceobserver@2.1.0/fontfaceobserver.standalone.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
+        <script src="https://cdn.socket.io/4.8.1/socket.io.min.js" integrity="sha384-mkQ3/7FUtcGyoppY6bz/PORYoGqOl7/aSUMn2ymDOJcapfS6PHqxhRTMh1RR0Q6+" crossorigin="anonymous"></script>
+        <script>window.socket = io('http://nc.vabaran.com:3000')</script> <!-- server connection for all the scenes --> 
+        <link rel="icon" type="image/png" href="assets/Installator.png">
+        <!-- Define the custom font using @font-face -->
+        <style>
+            html, body{
+                padding: 0;
+                margin: 0;
+            }
+            @font-face {
+                font-family: 'PixelFont';
+                src: url('assets/fonts/Kenney Pixel.ttf') format('truetype');
+            }
+        </style>
+    </head>
+    <body>
+        <script type="module" src="src/main.js"></script>
+    </body>
+</html>
