@@ -11,7 +11,7 @@ const app = express();
 const server = createServer(app);
 const io = new Server(server);
 
-app.use(express.static('public'));
+app.use(express.static('docs'));
 
 let rooms = {}
 const socketToRoom = new Map()
